@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Case Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head><body>
+<!-- START -->
+    
+<h1 class="text-center m-4 text-3xl underline">Case Converter</h1>
+
+<!-- form -->
+<form class="my-10">
+
+    <textarea placeholder="Enter Text Here..." cols="40" rows="5" class="bg-slate-200 m-auto block rounded-md p-2" required></textarea>
+
+    <!-- buttons -->
+    <div class="flex justify-center gap-4">
+
+        <input id="capitalBtn" type="button" value="CAPITAL" class="w-20 mt-5 p-1 rounded-sm text-white shadow-lg cursor-pointer bg-blue-600 hover:bg-blue-700">
+
+        <input id="smallBtn" type="button" value="small " class="w-20 mt-5 p-1 rounded-sm shadow-lg cursor-pointer bg-yellow-400 hover:bg-yellow-500">
+
+    </div>
+
+</form>
+
+<!-- display -->
+<div class="display mx-10 bg-cyan-100 p-2 rounded-md h-48  overflow-y-scroll border-solid border-2 border-indigo-600">
+</div>
+
+<!-- buttons -->
+<div class="flex justify-center gap-4">
+
+    <button id="copyBtn" class="w-20 mt-5 p-1 rounded-sm text-white shadow-lg cursor-pointer bg-green-600 hover:bg-green-700">Copy 🖨</button>
+
+    <button id="resetBtn" class="w-20 mt-5 p-1 rounded-sm text-white shadow-lg cursor-pointer bg-red-600 hover:bg-red-700">Reset</button>
+
+</div>
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
